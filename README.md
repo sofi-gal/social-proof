@@ -2,6 +2,10 @@
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
+# Deploy 
+
+https://social-proof-challenge.netlify.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.

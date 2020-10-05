@@ -59,7 +59,7 @@ body{
     display: flex;
    text-align: flex-start;
    justify-content: space-between;
-   margin-top: 2rem;
+   margin-top: 1.5rem;
    width: full-width;
    flex-wrap: wrap;
 }

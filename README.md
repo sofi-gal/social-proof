@@ -4,7 +4,7 @@
 
 # Deploy 
 
-https://social-proof-challenge.netlify.app/
+https://social-proof-henna.vercel.app/
 
 ## Welcome! 👋
 

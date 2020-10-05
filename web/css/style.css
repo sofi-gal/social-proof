@@ -18,7 +18,7 @@ body{
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	height: 100%;
+	height: auto;
 	margin: auto;
 	position: relative;
 }
@@ -133,9 +133,10 @@ h1{
 .customers{
     text-align: left;
     width: 100%;
-    display: flex;
+	display: flex;
 	flex-direction: row;
 	margin-top: 3rem;
+	margin-bottom: 4rem;
 }
 
 .row1{
@@ -250,12 +251,12 @@ h1{
 
 /* FOOTER */
 footer{
-	bottom: 0%;
-   height: 10vh;
+	bottom: 0% !important;
    width: 100%;
    text-align: center;
-   margin-top: 5rem;
-
+   position: absolute;
+   height: 10vh;
+   padding: 2rem 0rem;
 }
 
 @media screen and (max-width: 950px){

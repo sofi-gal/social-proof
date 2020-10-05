@@ -259,6 +259,13 @@ footer{
    padding: 2rem 0rem;
 }
 
+attribution {
+	font-size: 11px;
+  }
+  .attribution a {
+	color: hsl(228, 45%, 44%);
+  }
+
 @media screen and (max-width: 950px){
 	.pattern2, .pattern3{
 		position: absolute;

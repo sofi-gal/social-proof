@@ -59,7 +59,7 @@ body{
     display: flex;
    text-align: flex-start;
    justify-content: space-between;
-   margin-top: 4rem;
+   margin-top: 2rem;
    width: full-width;
    flex-wrap: wrap;
 }
@@ -73,6 +73,7 @@ body{
 
 h1{
 	color: hsl(300, 43%, 22%);
+	font-size: 4rem;
 }
 
 .presentation p{

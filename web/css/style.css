@@ -268,6 +268,10 @@ attribution {
   }
 
 @media screen and (max-width: 950px){
+	.container{
+		width: 100%;
+	}
+	
 	.pattern2, .pattern3{
 		position: absolute;
 		bottom: 0%;
@@ -288,10 +292,12 @@ attribution {
 		visibility: visible;
 		overflow: hidden;
 	}
+
 	
 	.customers{
 		flex-direction: column;
-		width: 90%;
+		width: 100%;
+		justify-content: center;
 	}
 
 	.row1{

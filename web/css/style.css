@@ -138,6 +138,7 @@ h1{
 	flex-direction: row;
 	margin-top: 3rem;
 	margin-bottom: 4rem;
+	padding-left: 2rem;
 }
 
 .row1{
@@ -170,7 +171,6 @@ h1{
 
 .c1{
 	background-color: hsl(300, 43%, 22%);
-    margin:auto;
 	padding: 1rem 1rem;
 	border-radius: 1rem;
 	width: 90%;
@@ -180,7 +180,6 @@ h1{
 
 .c2{
 	background-color: hsl(300, 43%, 22%);
-    margin: auto;
 	padding: 1rem 1rem;
     border-radius: 1rem;
 	width: fit-content;
@@ -191,7 +190,6 @@ h1{
 
 .c3{
 	background-color: hsl(300, 43%, 22%);
-	margin:auto;
 	padding: 1rem 1rem;
     border-radius: 1rem;
 	width: fit-content;
@@ -235,7 +233,7 @@ h1{
 
 .review{
 	color: white;
-	margin-top: 1rem;
+	padding-top: 1rem;
 	position: absolute;
 	width: 90%;
 	top: 40%;
@@ -271,7 +269,7 @@ attribution {
 
 @media screen and (max-width: 950px){
 	.container{
-		width: 90%;
+		width: 100%;
 	}
 	
 	.pattern2, .pattern3{
@@ -334,16 +332,26 @@ attribution {
 	}
 
 	.name{
-		top: 20%;
+		padding: 0rem 1rem;
 	}
 
 	.verified{
-		top: 32%;
+		padding: 0.2rem 1rem;
 	}
 
 	.review{
 		padding-top: 1.5rem;
 	}
+
+	.reviews{
+	}
+	
+	.report{
+	}
+	
+	.best-tech{
+	}
+	
 }
 
 @media screen and (max-width: 560px){
@@ -380,17 +388,64 @@ attribution {
 	}
 
 	.name{
-		padding-top: 4rem;
+		padding: 6rem 1rem;
 	}
 
 	.verified{
-		padding-top: 3rem;
+		padding: 5.3rem 1rem;
 	}
 
 	.review{
 		width: 90%;
 		text-align: center;
-		padding-top: 2rem;
+		padding-top: 3.5rem;
+	}
+
+}
+
+@media screen and (max-width: 375px){
+
+	body{
+		font-size: 12px;
+	}
+	
+    h1{
+		font-size: 3rem;
+	}
+
+	.who{
+		text-align: center;
+		width: 100%;
+	}
+
+	.row1{
+		height: 48vh;
+	 }
+ 
+	 .row2{
+		 height: 45vh;
+	 }
+ 
+	 .row3{
+		 height: 45vh;
+	 }
+
+	.me{
+		top: 10%;
+	}
+
+	.name{
+		padding: 5rem 0rem;
+	}
+
+	.verified{
+		padding: 4.3rem 0rem;
+	}
+
+	.review{
+		width: 90%;
+		text-align: center;
+		padding-top: 3rem;
 	}
 
 }
